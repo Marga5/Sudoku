@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onM1(View view) {
-        //Intent intent = new Intent(this, M1Activity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, EscolherDificuldade.class);
+        startActivity(intent);
     }
 
     public void onM2(View view) {
